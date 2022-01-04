@@ -1,15 +1,20 @@
 {
 	"name": "metadescription",
 	"displayName": "MetaDescription",
-	"description": "",
-	"version": "0.0.1",
-	"publisher": "Gregory Glatzer",
+	"description": "metadescription allows you to add a description to any folder or file in your VSCode workspace. Simply right click any folder or file in the Explorer, and click \"Edit Description\". You will then be provided with a markdown file that is associated with this file.",
+	"version": "1.0.0",
+	"publisher": "GregoryGlatzer",
+	"icon": "https://raw.githubusercontent.com/g1776/metadescription/master/metadescription logo.png",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/g1776/metadescription.git"
+	},
 	"activationEvents": [
 		"onCommand:metadescription.main"
 	],
